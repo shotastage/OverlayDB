@@ -6,6 +6,8 @@
 //
 
 import ArgumentParser
+import ShellSwift
+
 
 struct DBinTool: ParsableCommand {
     static let configuration = CommandConfiguration(
