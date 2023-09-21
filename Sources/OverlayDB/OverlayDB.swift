@@ -17,11 +17,18 @@ open class OverlayDB {
         case aes256gcm
     }
 
-    private let identifier: String = "com.shotastage.OverlayDB"
-    private let encryptionMode: EncryptionMode = .aes256gcm
-    private let storageType: StorageType = .flushMemory
+    /// Settings
+    private var identifier: String = "com.shotastage.OverlayDB"
+    private var encryptionMode: EncryptionMode = .aes256gcm
+    private var storageType: StorageType = .flushMemory
 
-    public init() {
+    /// Services
+    private let storage = OBStorage()
+    private let encryption = OBCrypto()
+    private let query = OBQuery()
+    private let memory = OBInMemory()
+
+    public init(identifier: String, encryptionMode: EncryptionMode, storageType: StorageType) {
         print("OverlayDB initialized.")
     }
 
