@@ -13,3 +13,4 @@ clean:
 	@echo "Cleaning..."
 	@swift package clean
 	@rm -rf .build
+	@rm -rf .swiftpm
