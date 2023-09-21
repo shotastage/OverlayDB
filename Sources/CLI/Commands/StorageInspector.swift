@@ -1,6 +1,6 @@
 //
-//  SwiftUIView.swift
-//  
+//  StorageInspector.swift
+//
 //
 //  Created by Shota Shimazu on 2023/09/05.
 //
@@ -9,7 +9,7 @@ import ArgumentParser
 import ShellSwift
 
 
-struct DBinTool: ParsableCommand {
+struct StorageInspector: ParsableCommand {
     static let configuration = CommandConfiguration(
         abstract: "Data base file inspect tool"
     )

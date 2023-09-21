@@ -17,9 +17,9 @@ import ArgumentParser
                 abstract: "OverlayDB CLI",
                 version: "0.0.1",
                 subcommands: [
-                    DBinTool.self
+                    StorageInspector.self
                 ],
-                defaultSubcommand: DBinTool.self
+                defaultSubcommand: StorageInspector.self
             )
         }()
     }
