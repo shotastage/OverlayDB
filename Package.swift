@@ -20,6 +20,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-argument-parser", from: "1.2.3"),
         .package(url: "https://github.com/weichsel/ZIPFoundation.git", .upToNextMajor(from: "0.9.16")),
         .package(url: "https://github.com/shotastage/Shell.swift.git", branch: "main"),
+        .package(url: "https://github.com/shotastage/DataLogic.swift.git", branch: "main"),
 
         // Development only dependencies
         .package(url: "https://github.com/nicklockwood/SwiftFormat", from: "0.52.3"),

@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "datalogic.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shotastage/DataLogic.swift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0da2e1385a9ef19d9c68175a153965c9a4de5228"
+      }
+    },
+    {
       "identity" : "shell.swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/shotastage/Shell.swift.git",
