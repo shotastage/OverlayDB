@@ -1,3 +1,13 @@
+//
+//  OBStorage.swift
+//
+//
+//  Created by Shota Shimazu on 2023/11/03.
+//
+
+import Foundation
+
+
 public struct OBTransactionChunk {
     public let data: Data
     public let offset: Int

@@ -25,12 +25,10 @@ import ArgumentParser
     }
 
 #else
-
     @main
     enum MainCLI {
         static func main() {
             print("OverlayDB Commandline Tools is not supported on your platform.")
         }
     }
-
 #endif

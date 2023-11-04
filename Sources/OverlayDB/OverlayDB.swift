@@ -25,7 +25,7 @@ open class OverlayDB {
     /// Services
     private let storage = OBStorage()
     private let encryption = OBCrypto()
-    private let query = OBQuery()
+    private let query = OBQuery(command: .Create, subcommand: .InTo, target: "SOR", argument: "(A, V)")
     private let memory = OBInMemory()
 
     public init(identifier: String, encryptionMode: EncryptionMode, storageType: StorageType) {
